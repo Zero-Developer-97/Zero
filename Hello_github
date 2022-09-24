@@ -1,0 +1,7 @@
+echo "# Zero" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Zero-Developer-97/Zero.git
+git push -u origin main
